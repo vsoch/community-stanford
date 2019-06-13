@@ -18,6 +18,8 @@ is a resource missing in the list below, please [open an issue]({{ site.repo }}/
 | [The Stanford Libraries](https://library.stanford.edu/science/software) | can assist with site licensed software and other requests. |
 
 
+<br>
+
 ### Compute
 
 Stanford is renound for having many clusters to help support your research.
