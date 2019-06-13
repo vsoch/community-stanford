@@ -1,0 +1,81 @@
+# --- General options --- #
+
+# Community Name: here you should write the repository name for your community.
+# It should be prefixed with community-<name>. This will deploy to us-rse.org/community-<name>
+baseurl: "/community-template"
+
+# Community Name: (should start with US-RSE <name>
+title: US-RSE Community
+institution: Dinosaur University
+
+# Description: Short description of your site
+description: Community of Research Software Engineers
+author: USRSE
+
+# Email: uncomment to include a link to a Formsee contact form
+# email: me@institution.edu
+
+# Social Profiles
+
+# Uncomment twitter to have a feed in the right sidebar of latest tweets
+# twitter:  vsoch
+github_username:  usrse
+
+
+# DO NOT EDIT BELOW THIS LINE ##################################################
+
+logo: "assets/img/logo-transparent.svg"
+
+# Paths
+defaults:
+    -
+        scope:
+            path: "pages"
+            type: pages
+        values:
+            layout: page
+    -
+        scope:
+            path: ""
+            type: posts
+        values:
+            layout: post
+            comments: true
+    -
+        scope:
+            path: "_people"
+            type: people
+        values:
+            layout: person
+
+
+# Collections
+collections:
+  people:
+    permalink: /people/:name/
+    layout: "person"
+    output: true
+
+# Navigation
+navbar-links:
+  About: "about"
+  Support:
+    - Get Support: "support"
+    - People: "people"
+  News:
+    - All Posts: "posts"
+    - Archive: "archive"
+
+# Build settings
+permalink   : /:year/:categories/:title/
+exclude: ["_site", "vendor", ".circleci"]
+
+markdown:          kramdown
+comments: true
+paginate:          5
+paginate_path: "/posts/page:num/"
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
