@@ -3,11 +3,12 @@ layout: home
 permalink: /
 ---
 
-## Welcome to our Community!
+## Welcome to the Stanford Research Software Engineer Community!
 
-This is a small blurb of text about your community of research software engineers.
-You can modify it by editing `pages/index.md` in your community template.
-You should be brief here, and add more substantial background in the
-`pages/about.md` folder. Add information about the resources and support
-you provide in `pages/support.md`, and have each member of your institution
-write a page in the `_people` collections folder.
+We represent a subset of the Research Software Engineers that are sitting across
+Stanford - whether in the School of Business, individual labs, Research Computing, 
+or staff in other related departments, we offer this portal to help grow our community,
+and to help direct you to the resource you are looking for. If you are looking to find
+the right source for help at Stanford, check out our [Support]({{ site.baseurl }}/support)
+page. If you want to search for a research software engineer, you can
+[do that too]({{ site.baseurl }}/search/).
