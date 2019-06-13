@@ -2,14 +2,14 @@
 
 # Community Name: here you should write the repository name for your community.
 # It should be prefixed with community-<name>. This will deploy to us-rse.org/community-<name>
-baseurl: "/community-template"
+baseurl: "/community-stanford"
 
 # Community Name: (should start with US-RSE <name>
-title: US-RSE Community
-institution: Dinosaur University
+title: US-RSE Stanford Community
+institution: Stanford University
 
 # Description: Short description of your site
-description: Community of Research Software Engineers
+description: Research Software Engineers at Stanford University
 author: USRSE
 
 # Email: uncomment to include a link to a Formsee contact form
@@ -19,7 +19,7 @@ author: USRSE
 
 # Uncomment twitter to have a feed in the right sidebar of latest tweets
 # twitter:  vsoch
-github_username:  usrse
+github_username:  stanford-rc
 
 
 # DO NOT EDIT BELOW THIS LINE ##################################################
