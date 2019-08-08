@@ -13,6 +13,7 @@ is a resource missing in the list below, please [open an issue]({{ site.repo }}/
 {: .table.table-responsive}
 | Resource | Description |
 | :------ |:----------- |
+| [RSE Services](https://stanford-rc.github.io/rse-services/) | RSE Services is the first official RSE services provider at Stanford, housed in Research Computing |
 | [Research Computing](https://srcc.stanford.edu) | offers both office hours, and has in-house RSEs for scientific and open source software development |
 | [The DARC Team](https://sites.google.com/a/stanford.edu/rcpedia/the-team) | at the Graduate School of Business can help with data, analytics, cloud computing, and general support|
 | [The Stanford Libraries](https://library.stanford.edu/science/software) | can assist with site licensed software and other requests. |
